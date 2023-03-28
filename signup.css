@@ -1,3 +1,46 @@
-body{
+body {
     text-align: center;
+}
+
+form {
+    height: 562px;
+    width: 467px;
+    position: absolute;
+    left: 450px;
+    top: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.25);
+    background-color: #EAE8E8;
+
+
+}
+
+.input {
+    border: 0px;
+    height: 30px;
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.long {
+    height: 45px;
+    width: 403px;
+    left: -218px;
+    top: -151px;
+    border-radius: 10px;
+    height: 45px;
+
+
+
+}
+
+.short {
+    height: 45px;
+    width: 196px;
+    left: -218px;
+    top: -210px;
+    border-radius: 10px;
+    
+
+
 }
