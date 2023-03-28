@@ -40,7 +40,26 @@ form {
     left: -218px;
     top: -210px;
     border-radius: 10px;
-    
 
+
+
+}
+
+.radio {
+    height: 10%;
+    width: 0px;
+    left: -218px;
+    top: 93px;
+    border-radius: 6px;
+    font-size: 25px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.25);
+    background-color: white
+}
+
+#radio_buttons {
+    position: absolute;
+    left: 75;
+    box-shadow: 10px 10px 12px 0px rgba(0, 0, 0, 0.25)px;
 
 }
