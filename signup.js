@@ -9,7 +9,7 @@ document.getElementById("button").addEventListener("mouseout",button_color2)
 
 //functions
 function button_color() {
-  document.getElementById("button").style.backgroundColor="yellow"
+  document.getElementById("button").style.backgroundColor="blue"
   
 }
 
