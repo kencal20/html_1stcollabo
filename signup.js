@@ -11,6 +11,6 @@ function button_color() {
 
 function button_color2() {
     document.getElementById("button").style.color="white"
-    document.getElementById("button").style.backgroundColor="green"
+    document.getElementById("button").style.backgroundColor=" rgba(61, 184, 58, 1)"
 }
 
