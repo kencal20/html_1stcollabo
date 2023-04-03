@@ -1,7 +1,3 @@
-body = document.body;
-
-
-
 //Event listeners
 document.getElementById("button").addEventListener("mouseover",button_color)
 document.getElementById("button").addEventListener("mouseout",button_color2)
