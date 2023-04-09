@@ -13,7 +13,12 @@ document.getElementsByClassName("input")[4].addEventListener("mouseover",inputsh
 document.getElementsByClassName("input")[4].addEventListener("mouseout", inputshadow4b);
 document.getElementsByClassName("input")[5].addEventListener("mouseover",inputshadow5a);
 document.getElementsByClassName("input")[5].addEventListener("mouseout", inputshadow5b);
-
+document.getElementsByClassName("radio")[0].addEventListener("mouseover",radioshadow0a);
+document.getElementsByClassName("radio")[0].addEventListener("mouseout",radioshadow0b);
+document.getElementsByClassName("radio")[1].addEventListener("mouseover",radioshadow1a);
+document.getElementsByClassName("radio")[1].addEventListener("mouseout",radioshadow1b);
+document.getElementsByClassName("radio")[2].addEventListener("mouseover",radioshadow2a);
+document.getElementsByClassName("radio")[2].addEventListener("mouseout",radioshadow2b);
 
 functions;
 function button_color() {
@@ -80,5 +85,31 @@ function inputshadow5a() {
 }
 function inputshadow5b() {
   document.getElementsByClassName("input")[5].style.boxShadow="none"
+  
+}
+function radioshadow0a() {
+  document.getElementsByClassName("radio")[0].style.boxShadow =
+    " 10px 10px 12px 0px rgba(0, 0, 0, 0.25)";
+}
+function radioshadow0b() {
+  document.getElementsByClassName("radio")[0].style.boxShadow="none"
+  
+}
+
+function radioshadow1a() {
+  document.getElementsByClassName("radio")[1].style.boxShadow =
+    " 10px 10px 12px 0px rgba(0, 0, 0, 0.25)";
+}
+function radioshadow1b() {
+  document.getElementsByClassName("radio")[1].style.boxShadow="none"
+  
+}
+
+function radioshadow2a() {
+  document.getElementsByClassName("radio")[2].style.boxShadow =
+    " 10px 10px 12px 0px rgba(0, 0, 0, 0.25)";
+}
+function radioshadow2b() {
+  document.getElementsByClassName("radio")[2].style.boxShadow="none"
   
 }
