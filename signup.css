@@ -46,7 +46,14 @@ form {
 .radio {
     position: relative;
     left: 7;
+    background-color: white;
+    color: rgb(83, 70, 70);
+    margin-left: 5px;
+    border-radius: 6px;
+    font-size: 20px;
+    width: 10px;
 }
+
 
 button {
     position: relative;
